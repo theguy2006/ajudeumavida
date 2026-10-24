@@ -8,6 +8,7 @@
 }
 
 
+
 body{
 font-family:var(--fonte-principal);
 font-weight: normal;
@@ -65,7 +66,7 @@ header > h1{
 header > h2{
     color: var(--cor-04);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
-    padding: 3px;a
+    padding: 3px;
 }
 
 header{
@@ -78,10 +79,10 @@ header{
     text-align: center;
     padding-top: 60px;
 }
-main footer{
+.footer{
     text-align: center;
     background-color: #1b7bb6;
-    padding: 2px;
+    padding: 0px;
     color: #69b1da;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
