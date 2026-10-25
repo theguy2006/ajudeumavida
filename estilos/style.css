@@ -165,7 +165,7 @@ main >a:hover{
 }
 
 .card-ong:hover {
-    transform: translateY(-6px);
+    transform: translateY(-10px);
     box-shadow: 0 10px 25px rgb(0 32 80 / 20%);
 }
 
