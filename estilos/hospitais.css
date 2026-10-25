@@ -58,9 +58,11 @@ header > h1{
     color: var(--cor-03);
     font-family: var(--font-logo);
     font-size: 140px;
-    text-shadow: 3px 3px 5px #002050;
+    text-shadow: 3px 3px 5px #000000a5;
     margin-bottom: 40px;
     margin-left: 25px;
+
+    
 
 }
 .footer{
@@ -81,15 +83,64 @@ header > h2{
 }
 
 header{
-    background-image: linear-gradient(
+     background-image: linear-gradient(
         90deg, 
     var(--cor-01), 
     var(--cor-02), 
-    var(--cor-03));
+    var(--cor-03)); 
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
     min-height: 150px;
     text-align:left;
     padding-top: 60px;
     Padding-left: 20px;
+    
+    
+}
+header#hospitais{
+     /* background-image: linear-gradient(
+        90deg, 
+    var(--cor-01), 
+    var(--cor-02), 
+    var(--cor-03));  */
+    background-image:linear-gradient(
+            to right,
+            #002050 0%,
+            rgba(0, 32, 80, 0.85) 30%,
+            rgba(0, 32, 80, 0.2) 100%
+        ),
+    url(../imagens/criança\ hospital.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 150px;
+    text-align:left;
+    padding-top: 60px;
+    Padding-left: 20px;}
+header#fome{
+    background-image:linear-gradient(
+            to right,
+            #002050 0%,
+            rgba(0, 32, 80, 0.85) 30%,
+            rgba(0, 32, 80, 0.2) 100%
+        ),
+    
+    url(../imagens/crianças.png);
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-height: 238px;
+    text-align:left;
+    padding-top: 60px;
+    Padding-left: 20px;
+    
+    /* background-image: linear-gradient(
+        90deg, 
+    var(--cor-01), 
+    var(--cor-02), 
+    var(--cor-03));  */
+    
 }
 main footer{
     text-align: center;
