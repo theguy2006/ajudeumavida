@@ -110,8 +110,9 @@ header#hospitais{
             rgba(0, 32, 80, 0.85) 30%,
             rgba(0, 32, 80, 0.2) 100%
         ),
-    url(../imagens/criança\ hospital.jpg);
-    background-position: top center;
+    url(../imagens/ciranças\ no\ h.png);
+    background-position:top;
+    background-size:100%;
     background-attachment: fixed;
     min-height: 150px;
     text-align:left;
