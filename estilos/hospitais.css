@@ -118,6 +118,26 @@ header#hospitais{
     text-align:left;
     padding-top: 60px;
     Padding-left: 20px;}
+
+header#internacionais{
+     background-image:linear-gradient(
+            to right,
+            #002050 0%,
+            rgba(0, 32, 80, 0.85) 30%,
+            rgba(0, 32, 80, 0.2) 100%
+     ),
+      url(../imagens/internacional2.png);
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-height: 355px;
+    text-align:left;
+    padding-top: 60px;
+    Padding-left: 20px;
+
+        
+}
 header#fome{
     background-image:linear-gradient(
             to right,
