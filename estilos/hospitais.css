@@ -114,7 +114,7 @@ header#hospitais{
     background-position:top;
     background-size:100%;
     background-attachment: fixed;
-    min-height: 150px;
+    max-height: 238px;
     text-align:left;
     padding-top: 60px;
     Padding-left: 20px;}

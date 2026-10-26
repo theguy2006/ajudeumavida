@@ -113,13 +113,13 @@ main > a.acs{
     
     
 }
-main >a:hover{
+ main >a:hover{
     text-decoration: underline;
     background-color: var(--cor-04);
     color: #a4ebff;
     text-shadow: 2px 2px 5px black;
     
-}
+} 
 .acesso{
     margin-bottom: 20px;
 }
