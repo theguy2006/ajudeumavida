@@ -58,7 +58,7 @@ header > h1{
     color: var(--cor-03);
     font-family: var(--font-logo);
     font-size: 140px;
-    text-shadow: 3px 3px 5px #000000a5;
+    text-shadow: 3px 3px 5px #0e4b81ac;
     margin-bottom: 40px;
     margin-left: 25px;
 
@@ -110,7 +110,7 @@ header#hospitais{
             rgba(0, 32, 80, 0.85) 30%,
             rgba(0, 32, 80, 0.2) 100%
         ),
-    url(../imagens/ciranças\ no\ h.png);
+    url(../imagens/hospitais..png);
     background-position:top;
     background-size:100%;
     background-attachment: fixed;
