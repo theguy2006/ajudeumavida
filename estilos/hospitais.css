@@ -131,6 +131,24 @@ header#internacionais {
   padding-top: 60px;
   padding-left: 20px;
 }
+header#nacionais {
+  background-image:
+    linear-gradient(
+      to right,
+      #002050 0%,
+      rgba(0, 32, 80, 0.85) 30%,
+      rgba(0, 32, 80, 0.2) 100%
+    ),
+    url(../imagens/causas\ nacionais.jpeg);
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  max-height: 359px;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 20px;
+}
 
 .internacionais {
   position: relative;
@@ -306,4 +324,8 @@ main > a:hover {
 .nacionais {
   position: relative;
   bottom: 80px;
+}
+.h1nacional{
+  position: relative;
+  bottom: 30px;
 }
