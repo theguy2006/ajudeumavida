@@ -131,13 +131,18 @@ header#internacionais{
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    max-height: 355px;
+    max-height: 359px;
     text-align:left;
     padding-top: 60px;
-    Padding-left: 20px;
-
-        
+    Padding-left: 20px;      
 }
+
+.internacionais{
+    position: relative;
+    bottom: 40px;
+}
+
+
 header#fome{
     background-image:linear-gradient(
             to right,
