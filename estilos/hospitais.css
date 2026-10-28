@@ -329,3 +329,27 @@ main > a:hover {
   position: relative;
   bottom: 30px;
 }
+.paglogin {
+
+  top: 10px;
+  right: 10px;
+  background-color: #0e4b817c;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f1f1f1;
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.69);
+  position: fixed;
+
+}
+.paglogin:hover {
+  transition: color 0.5s;
+  text-decoration: underline;
+  animation-duration: 0.5;
+  color: #a4ebff;
+  text-shadow: 2px 2px 5px black;
+}

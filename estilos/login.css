@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    animation:aparecer 0.9s;
+}
+    @keyframes aparecer {
+        from{
+            opacity: 0;
+        }
+    }
+        to{
+            opacity: 1;
+        }
+    
+
+
+:root {
+  --fonte-principal: "Lato", sans-serif;
+  --font-logo: "Big Shoulders", sans-serif;
+  --cor-01: #002050;
+  --cor-02: #0e4b81;
+  --cor-03: #1b7bb6;
+  --cor-04: #69b1da;
+  --cor-05: #a4ebff;
+}
+body{
+    text-align: center;
+}
+form{
+    font-family: var(--fonte-principal);
+}
+h1 {
+  font-family: var(--font-logo);
+  text-align: center;
+  font-size: 80px;
+  background-color: #1b7bb6;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  display: inline-block;
+  border-radius: 30px;
+  transform: translate(0px, -130px);
+}
+form {
+  text-align: center;
+}
+label {
+  background-color: #1b7bb6;
+  padding: 5px;
+  border-radius: 10px;
+  line-height: 50px;
+}
+label:hover {
+  color: #a4ebff;
+  text-decoration: underline;
+  transition: color 0.5s;
+}
+input{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.433);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input#botão{
+    width: 653px;
+    background-color: #1b7bb6;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+input#botão:hover{
+    color: #a4ebff;
+    transition: color 0.5s;
+        cursor: pointer;
+
+    
+}
+input#botão:active{
+    transform: scale(0.95);
+    opacity: 0.6;
+
+}
+input#botão2{
+    background-color: #f1f1f1;
+    width: 653px;
+    border: 0;
+    cursor: pointer;
+    
+}
+input#botão2:hover{
+    background-color: rgba(128, 128, 128, 0.145);
+}
+input#botão2:active{
+    transform: scale(0.95);
+    opacity: 0.6;
+    background-color: #f1f1f1;
+}
+main{
+    width: 1500px;
+    background-color: #f1f1f1;
+    margin: auto;
+    height: 817px;
+    transform: translate();
+}
+article{
+    transform: translate(0px, 100px);
+}
